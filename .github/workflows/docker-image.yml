@@ -15,5 +15,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: login docker hub
-      run: docker login --username=${{ secrets.DOCKERUSERNAME }} registry.cn-hangzhou.aliyuncs.com --password=${{ secrets.DOCKERPASSWORD }} 
+      run: docker login --username=${{ secrets.DOCKERUSER }} registry.cn-hangzhou.aliyuncs.com --password=${{ secrets.DOCKERPASSWD }} 
            bash buildDockerImage.sh
