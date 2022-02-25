@@ -1,0 +1,3 @@
+source: k8s.gcr.io/ingress-nginx/controller:v1.1.1
+image: ingress-nginx-controller
+version: v1.1.1
