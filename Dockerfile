@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/metrics-server/metrics-server:v0.5.2
+FROM k8s.gcr.io/ingress-nginx/controller:v1.1.1
