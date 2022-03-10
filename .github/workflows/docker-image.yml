@@ -5,6 +5,10 @@ on:
     branches: [ main ]
     paths:
       - "imageInfo"
+  pull_request:
+    branches: [ main ]
+    paths:
+      - "imageInfo"
 jobs:
 
   build:
