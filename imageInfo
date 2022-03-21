@@ -1,3 +1,3 @@
-source: k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.2.4
-image: kube-state-metrics
-version: v2.2.4
+source: k8s.gcr.io/metrics-server/metrics-server:v0.6.1
+image: metrics-server
+version: v0.6.1
