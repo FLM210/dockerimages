@@ -1,3 +1,3 @@
-source: k8s.gcr.io/metrics-server/metrics-server:v0.6.1
-image: metrics-server
-version: v0.6.1
+source: k8s.gcr.io/prometheus-adapter/prometheus-adapter:v0.9.1
+image: prometheus-adapter
+version: v0.9.1
