@@ -1,3 +1,3 @@
-source: docker.io/calico/kube-controllers:v3.25.0
-image: kube-controllers
+source: calico/typha:v3.25.0
+image: calico-typha
 version: v3.25.0
