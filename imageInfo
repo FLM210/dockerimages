@@ -1,3 +1,3 @@
-source: calico/typha:v3.25.0
-image: calico-typha
-version: v3.25.0
+source: k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+image: nfs-subdir-external-provisioner
+version: v4.0.2
